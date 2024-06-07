@@ -9,7 +9,7 @@ connectDB();
 
 
 const corsOptions = {
-    origin: 'http://localhost:3000', // Allow only this origin
+    origin: 'https://pathbeatassignment.netlify.app', // Allow only this origin http://localhost:3000
 };
 
 app.use(cors(corsOptions));
