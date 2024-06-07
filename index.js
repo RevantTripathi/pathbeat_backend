@@ -9,7 +9,7 @@ connectDB();
 
 
 const corsOptions = {
-    origin: 'https://pathbeat.vercel.app', // Allow only this origin http://localhost:3000 https://pathbeatassignment.netlify.app
+    origin: 'https://pathbeatassignment.netlify.app', // Allow only this origin http://localhost:3000
 };
 
 app.use(cors(corsOptions));
